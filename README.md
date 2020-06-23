@@ -14,4 +14,5 @@ unzip the chatbot zip file
 ->Npm install
 ->Node index.js
 8. Response will be generated from dialogflow.
+9. To integrate your dialogflow chatbot, change the access API token in index.js file(i have commented the line, where API token has to be changed)
 
