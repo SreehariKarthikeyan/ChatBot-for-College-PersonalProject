@@ -17,7 +17,7 @@ app.get('/',function (req, res)   {
    // res.send('Hello World!') ;
     var apiai = require('apiai');
     
-   var app = apiai("4848f010c338471d8491d8d4e0b83852");
+   var app = apiai("4848f010c338471d8491d8d4e0b83852");                           //API
     
 
    var request = app.textRequest(req.query.user, {
